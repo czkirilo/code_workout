@@ -1,0 +1,3 @@
+-> Não existe didatica perfeita
+-> Programação é um treino baseado em errar e aprender.
+-> javascript é uma linguagem que pode ser usada no back e no front

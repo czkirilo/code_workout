@@ -1,0 +1,7 @@
+-> Node.js versão LTS
+para verificar se o node foi instalado corretamente utilize o comando:
+node --version
+no propt de comando ou similar
+
+->VsCode
+instalar o plugin code runner (precisa instalar o node)
