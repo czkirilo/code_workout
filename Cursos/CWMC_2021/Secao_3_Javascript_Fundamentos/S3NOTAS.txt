@@ -1,0 +1,55 @@
+a organização do curso não costuma usar ;
+// comentario de uma linha
+
+/*
+*/ comentario de varias linhas
+
+var nome = valor // evite o uso pois o js caga pra essa tipagem
+let nome = valor // o que o var deveria se, prefira por ele
+const nome = valor // declaração de constante
+
+js é fracamente tipado (ou tem tipagem dinamica) o que não significa que ele não tem tipos, mas que esses tipos são mutaveis em alguns momentos.
+
+evite nomes genericos ou siglas nas suas declarações
+
+IsInteger = pergunta se é inteiro e retorna true ou false
+toFixed(N) = quantas casas depois da virgula será apresentado
+toString = transforma em string
+
+Number com N maisuculo é função
+number com n minusculo é tipo
+
+
+cuidados com Number
+
+console.log(7 / 0) // retorna Infinity
+console.log("10" / 2) // ele consegue converter e retorna 5 pois é possivel a conversão 
+console.log("10" + 2) // ele concatena e retonra 102 
+console.log("10,2" / 2) // ele não consegue converter e retorna NaN (not a number), ou seja, ele não sabe o que é
+console.log(0.1 + 0.7) // retorna 0.79, ou seja, gera imprecisão, por conta da estrutura de dados do javascript de ponto flutuante.
+
+charAt(N) // retorna a letra lida em uma string
+charCodeAt //retorna a letra lida em formato unicode
+indexOf(V) // ve se existe um caracter na string e retorna sua posição
+substring // suprime strings
+concat // concatena strings
+replace // troca o caracter
+
+ao fazer templates não usar aspas simples, usar `
+
+toUpperCase// troca para letra maiuscula
+
+! // é uma negação
+!! // negando a negação
+
+|| // ou
+
+objeto em javascript não é json
+
+array []
+objeto {}
+
+let valor // não inicializada, ou seja, undefined
+tentar chamar uma variavel que não existe = is not defined
+undefined é uma variavel sem valor atribuido ainda, is not define é uma variavel que não foi definida
+null // ausencia de valor
